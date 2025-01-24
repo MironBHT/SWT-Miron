@@ -25,17 +25,17 @@ Die restlichen Schritte fanden teils in GitHub, teils in der Shell statt:
 
 Antwort von git:
 
-> From https://github.com/MironBHT/SWT-Miron
-
-> d13603b..e230350  main       -> origin/main
-
-> Updating d13603b..e230350
-
-> Fast-forward
-
->  SISF.py | 2 +-
-
->  1 file changed, 1 insertion(+), 1 deletion(-)
+	From https://github.com/MironBHT/SWT-Miron
+	
+	d13603b..e230350  main       -> origin/main
+	
+	Updating d13603b..e230350
+	
+	Fast-forward
+	
+	SISF.py | 2 +-
+	
+	 1 file changed, 1 insertion(+), 1 deletion(-)
 
 - Nach weiterem lokalen Arbeiten an dieser README-Datei `git status` und `git diff`:
 
