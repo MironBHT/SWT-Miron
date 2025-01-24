@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """Space Invaders: Special Forces
-   See the Readme.md
+   See the README.md
 """
 
 __author__ = "Miron Schmidt"
