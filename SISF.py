@@ -166,6 +166,7 @@ if __name__ == '__main__':
       if keys[pygame.K_q]:
          keep_going = False
 
+	  # Test how these steps could be enhanced by not redrawing the whole screen every time
       rect_player = pygame.Rect(player_pos.x, player_pos.y, sprite_player.get_width(), sprite_player.get_height())
       screen.blit(background, (0, 0))
       screen.blit(sprite_player, player_pos)
