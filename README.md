@@ -1,14 +1,16 @@
-# Space Invaders: Special Forces
+# ESA DVC-E1 (SWT)
 
-*ESA DVC-E1 for SWT - this is a course project, please ignore*
+*This is a course project, please ignore*
 
 *If you're interested in the game (though I don't see why you would), the real
 repo is at https://codeberg.org/Miron/SISF*
 
-## Dokumentation
+## Aufgaben 1-2
 
 Die Dateien wurden direkt in GitHub hochgeladen, dann legte ich eine lokale
 Kopie mittels `git clone` an.
+
+## Aufgabe 3
 
 Die restlichen Schritte fanden teils in GitHub, teils in der Shell statt:
 
@@ -61,5 +63,19 @@ Antwort von git:
 
 - Hochladen der unnötigen Datei `green.png` in GitHub und wieder Löschen mit lokalen Shell-Befehlen `rm` und `git rm`.
 - Ansehen der Commits mit `git log` (muss ich ich nicht weiter dokumentieren, hoffe ich).
-- Setzen eines ersten Tags (v1.1-swt).
-- Hochladen der aktuellen README-Datei per `push`, Setzen eines neuen Tags (v1.2-swt).
+
+## Aufgabe 4
+
+- Setzen eines ersten Tags (v1.1-swt) in GitHub.
+- Hochladen der aktuellen README-Datei per `push`, Setzen eines neuen Tags (v1.2-swt) per `git tag v1.2-swt`.
+- `git checkout v1.1-swt`:
+
+		Note: switching to 'v1.1-swt'.
+		You are in 'detached HEAD' state. You can look around, make experimental
+		changes and commit them, and you can discard any commits you make in this
+		state without impacting any branches by switching back to a branch.
+
+- Nach einigem Hin- und Herprobieren Wiederherstellen von v1.2-swt und Aktualisieren der README-Datei. (Probleme: Beim Checkout wurde der Zustand "HEAD detached" hergestellt, den ich erst nach mehreren Versuchen und letztlich durch Checkouts von `main`, `v1.1-swt` und dann `v1.2-swt` hintereinander abstellen konnte.)
+
+## Aufgabe 5
+
